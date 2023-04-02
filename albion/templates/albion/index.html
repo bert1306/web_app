@@ -1,1 +1,308 @@
-albion
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Albion</title>
+
+   
+    <link href="{% static "albion/css/bootstrap.min.css" %}" rel="stylesheet">
+
+  
+    <link href="{% static "albion/css/animate.css" %}" rel="stylesheet">
+    <link href="{% static "albion/font-awesome/css/font-awesome.min.css" %}" rel="stylesheet">
+
+   
+    <link href="{% static "albion/css/style.css" %}" rel="stylesheet">
+    <link href="{% static "albion/img/ico/favico.png" rel="shortcut icon" %}" />
+    <link href="{% static "albion/img/ico/favico.ico" rel="shortcut icon" %}" />
+</head>
+<body id="page-top" class="landing-page no-skin-config">
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#page-top">HOME</a></li>
+                        <li><a class="page-scroll" href="#platform">Блоки</a></li>    
+                        <li><a class="page-scroll" href="#moduls">Модули</a></li> 
+                                                                 
+                        <li><a class="page-scroll" href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Автоматизация никогда <br/> 
+						не была<br/>
+                        такой простой<br/>
+                        </h1>
+                    <h1>Все что нужно - <br/> в одной системе</h1>
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <img src="{% static "albion/img/laptop.png" %}" alt="laptop"/>
+                </div>
+            </div>
+           
+            <div class="header-back one"></div>
+
+        </div>
+ 
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+<section  id= "platform" class="container features">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>CRM + ERP<br/> <span class="navy">новый подход к реализации проектов</span> </h1>
+            
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+            <div>
+                <i class="fa fa-shopping-cart features-icon"></i>
+                <h2>Продажи</h2>
+                <p>Повышайте эффективность продаж организуя работу продавцов. Увеличивайте выручку.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa  fa-cog features-icon"></i>
+                <h2>Управление проектами</h2>
+                <p>Планируйте работы, контролируйте задачи. Выполняйте все обазательства точно в срок.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-bar-chart features-icon"></i>
+                <h2>Анализ</h2>
+                <p>Используйте KPI. Анализируйте информацию.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-compass features-icon"></i>
+                <h2>Интернет коммерция</h2>
+                <p>Увеличивайте ваши онлайн продажи, продавайте на любых страницах вашего сайта.</p>
+            </div>
+        </div>
+        <div class="col-md-6 text-center wow zoomIn">
+            <img src="{% static "albion/assets/img/perspective.png" %}" alt="dashboard" class="img-responsive">
+        </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+            <div>
+                <i class="fa fa-random features-icon"></i>
+                <h2>Бизнес процессы</h2>
+                <p>Управляйте! Повышайте эффективность при помощи настройки бизнес-процессов.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-credit-card features-icon"></i>
+                <h2>Лояльность</h2>
+                <p>Дружите с клиентами! Запустите свою программу лояльности.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-location-arrow features-icon"></i>
+                <h2>Автоматизация лидов</h2>
+                <p>Создавайте автоматизированные кампании, уточняйте сегментацию лидов и контролируйте их эффективность.</p>
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-wrench features-icon"></i>
+                <h2>API</h2>
+                <p>Интегрируйте  с  любыми системами.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Создайте новое будущее Вашей компании</h1>
+            <p>Наша цель - улучшение работы компаний, повышение эффективности бизнеса через использование простых, эффективных и недорогих инструментов. Мы предлагаем отличные продукты для решения ваших бизнес-задач.</p>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="col-lg-6 features-text wow fadeInLeft">
+            
+            <h2>Предложение</h2>
+            <p>Наши решения предназначены для малых и средних коммерчских организаций и компаний, желающих оптимизировать свою работу и повысить эффективность.</p>
+            <p>Система имеет модульную архитектуру. Модули системы охватывают все функциональные области деятельности современной  компании, от личного кабинета, CRM и интернет магазина, до торговли, учета склада, производственного учета и планирования, работы с персоналом и так далее. Каждый модуль может работать самостоятельно, как отдельная программа. Все остальные модули гармонично интегрируются, создавая единое целое. Благодаря такому подходу вы можете начать с решения той задачи, которая наиболее актуальна для вас, подключая остальные модули по мере необходимости. Это обеспечивает быстрое внедрение, простое и быстрое развитие вашей информационной системы. Сегодня система насчитывает более 50 различных модулей.</p>
+       
+        </div>
+        
+        <div class="col-lg-6 text-right wow fadeInRight">
+            <img src="{% static "albion/assets/img/dashboard.png" %}" alt="dashboard" class="img-responsive pull-right">
+        </div>
+    </div>
+</section>
+
+<section id= "moduls" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Модули</h1>
+                <p>Немножко подробнее</p>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-md-4">
+                <h2>Loyalty</h2>
+                <p>Обеспечивает автоматизацию всех типов программ лояльности – дисконтных, дисконтно-накопительных, бонусных, дисконтно-бонусных, клубных программ, позволяя работать со всеми аспектами программ лояльности.</p>
+				 <br/>
+				 <p>Выступает единым процессинговым центром, в который стекается информация обо всех транзакциях, служит общим хранилищем полной информации о клиенте, предоставляет необходимые данные для построения эффективных взаимоотношений с клиентом и формирования его лояльности</p>
+           
+            </div>
+           
+            <div class="col-md-4">
+                <h2>CRM </h2>
+                <p>CRM позволяет вести единую базу клиентов вашей компании, в которой храниться вся информация о клиенте и его взаимоотношениях, а также сегментировать по различным параметрам.</p>
+				 <br/>
+				 <p>CRM выступает единым конструктором для автоматизации бизнес процесса продажи продуктов вашей компании, прохождения различного уровня сложности стадий процесса продажи до завершения сделки. </p>
+            
+            </div>
+            
+            <div class="col-md-4">
+                <h2>Bank</h2>
+                <p>Отраслевое решения для автоматизации бизнес процессов финансовых организаций: кредитный конвеер, заключение договоров РКО, работа с просроченной задолженностью, выдача банковских карт, электронное хранение документов и т.п.</p>
+				 <br/>
+				 <p>Автоматизирует деятельность фронт и мидл офисных подразделений Банка, тем самым позволяя ускорить и улучшить процесс обслуживания клиента, обеспечить контроль сроков принятий решений и исключить ошибки при вводе данных.</p>
+           
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section id="contact" class="gray-section contact">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Наши контакты</h1>
+               
+            </div>
+        </div>
+        <div class="row m-b-lg">
+            <div class="col-lg-3 col-lg-offset-3">
+                <address>
+                    <strong><span class="navy">ООО "Альбион"</span></strong><br/>
+                    ИНН 0274180605<br/>
+                    КПП 027401001<br/>
+                    ОГРН 1130280057280
+                    <abbr title="Phone">P:</abbr> +7(XXX) ZZZZZZ
+                </address>
+            </div>
+      
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="mailto:torg@al-bion.ru" class="btn btn-primary">Отправьте сообщение</a>
+           
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2015 Albion</strong><br/> </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="{% static "albion/js/jquery-2.1.1.js" %}"></script>
+<script src="{% static "albion/js/bootstrap.min.js" %}"></script>
+<script src="{% static "albion/js/plugins/metisMenu/jquery.metisMenu.js" %}"></script>
+<script src="{% static "albion/js/plugins/slimscroll/jquery.slimscroll.min.js" %}"></script>
+
+<script src="{% static "albion/js/inspinia.js" %}"></script>
+<script src="{% static "albion/js/plugins/pace/pace.min.js" %}"></script>
+<script src="{% static "albion/js/plugins/wow/wow.min.js" %}"></script>
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+        });
+    });
+
+    var cbpAnimatedHeader = (function() {
+        var docElem = document.documentElement,
+                header = document.querySelector( '.navbar-default' ),
+                didScroll = false,
+                changeHeaderOn = 200;
+        function init() {
+            window.addEventListener( 'scroll', function( event ) {
+                if( !didScroll ) {
+                    didScroll = true;
+                    setTimeout( scrollPage, 250 );
+                }
+            }, false );
+        }
+        function scrollPage() {
+            var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+                $(header).addClass('navbar-scroll')
+            }
+            else {
+                $(header).removeClass('navbar-scroll')
+            }
+            didScroll = false;
+        }
+        function scrollY() {
+            return window.pageYOffset || docElem.scrollTop;
+        }
+        init();
+
+    })();
+
+    // Activate WOW.js plugin for animation on scrol
+    new WOW().init();
+
+</script>
+
+</body>
+</html>
