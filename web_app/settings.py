@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'vitiaz',
     'scbeton',
     'index',
+    'aliancestroyrb',
 ]
 
 MIDDLEWARE = [

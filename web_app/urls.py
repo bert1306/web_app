@@ -24,4 +24,5 @@ urlpatterns = [
     path('albion', include('albion.urls', namespace='albion')),
     path('vitiaz', include('vitiaz.urls', namespace='vitiaz')),
     path('scbeton', include('scbeton.urls', namespace='scbeton')),
+    path('aliancestroyrb', include('aliancestroyrb.urls', namespace='aliancestroyrb')),
 ]
