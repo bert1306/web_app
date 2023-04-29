@@ -27,7 +27,8 @@ SECRET_KEY = '**66o2u@v!bim=%or^&zaxp-x3ll&j=^mefr&*9l8q&8trxzvj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.101.176', '188.234.151.56', 'web-app.102registrator.ru', '192.168.101.176']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.101.176', '188.234.151.56', 'web-app.102registrator.ru'
+    , '192.168.101.176', 'al-bion.ru', 'vitiaz-sb.ru', 'scbeton.ru', 'aliancestroyrb.ru']
 
 
 # Application definition
